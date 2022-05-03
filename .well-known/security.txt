@@ -1,0 +1,19 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Canonical URL
+Canonical: https://www.apex.ac/.well-known/security.txt
+
+# Our security addresses
+Contact: mailto:rhubinak@tuta.io
+Contact: mailto:security@apex.ac
+
+# Our OpenPGP key
+Encryption: https://keys.openpgp.org/pks/lookup?op=get&options=mr&search=0x689579C156CC649BF4E59CF020EBE367179E7610
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRolXnBVsxkm/TlnPAg6+NnF552EAUCYnGcIwAKCRAg6+NnF552
+EM1iAP96OUgxxeVN78Nb2fp+0ApfKFukEEuq/drpL2hTxPUmNwD/U7YhYF9CqDvC
+XlWsz6SBHxaaNsyLMj4/1ftBZyf32gU=
+=boDn
+-----END PGP SIGNATURE-----

@@ -1,0 +1,97 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*margin-left: calc(100vw - 100%);*/
+  overflow-y: scroll;
+}
+
+body {
+  font: 16px sans-serif;
+  color: #555;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; /* Full width */
+  background-color: #fff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #555;
+}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li a:hover {background-color: #eee;}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+.banner {
+  height: 450px;
+  background: transparent url('banner.svg') 0 60px no-repeat fixed;
+  padding: 7em 0;
+}
+
+h1 {font-size: 200%;}
+
+h1, h2 {
+  padding: 1em 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+p, dl, table {
+  margin: auto;
+  line-height: 1.5;
+  max-width: 80ch;
+}
+
+p.center {text-align: center;}
+
+dd {margin-left: 2ch;}
+
+td {padding: 1ch;}
+
+footer {
+  margin-top: 4ch;
+  text-align: center;
+  font-size: 85%;
+}
+
+.menu-icon {display: none;}
+
+@media screen and (max-width: 600px) {
+
+  p, dl {margin-left: 2ch;}
+
+  .menu-icon {display: block;}
+
+  .menu:hover #menu {height: 23em;}
+
+  #menu {
+    height: 0em;
+    overflow: hidden;
+    transition-property: height;
+    transition: all 0.5s ease-in-out;
+  }
+
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+  ul.topnav {position: static;}
+}
