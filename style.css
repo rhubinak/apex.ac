@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font: 16px sans-serif;
+  font: 1rem sans-serif;
   color: #555;
 }
 
@@ -82,7 +82,7 @@ footer {
 
   .menu-icon {display: block;}
 
-  .menu:hover #menu {height: 23em;}
+  .menu:active #menu {height: 23em;}
 
   #menu {
     height: 0em;
