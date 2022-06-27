@@ -6,15 +6,15 @@
     <loc>https://www.apex.ac</loc>
     <image:image>
       <image:loc>https://www.apex.ac/logo.svg</image:loc>
-      <image:license>https://www.apex.ac/license.txt</image:license>
+      <image:license>https://www.apex.ac/LICENSE</image:license>
     </image:image>
     <image:image>
       <image:loc>https://www.apex.ac/banner.svg</image:loc>
-      <image:license>https://www.apex.ac/license.txt</image:license>
+      <image:license>https://www.apex.ac/LICENSE</image:license>
     </image:image>
     <image:image>
       <image:loc>https://www.apex.ac/rss.svg</image:loc>
-      <image:license>https://www.apex.ac/license.txt</image:license>
+      <image:license>https://www.apex.ac/LICENSE</image:license>
     </image:image>
   </url>
   <url>
